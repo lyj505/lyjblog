@@ -1,0 +1,404 @@
+body{
+   background: #CDC1C5;
+}
+
+.container{
+	width: 980px;
+	border: 1px solid #CDC1C5;
+	margin: 0px auto 50px;
+	background: white;
+	overflow: hidden;
+}
+.wrap{
+	  width: 892px;
+	  	height: 1386px;
+	  	margin: 0px auto;
+}
+header{
+	border-bottom: 1px solid grey;
+	height: 61px;
+	position: relative;
+	margin-bottom: 25px;
+	
+}
+.ife{
+	width: 110px;
+	background: #CDB5CD;
+	height: 61px;
+	text-align: bottom;
+	line-height: 100px;
+	font-size: 12px;
+	font-family: "黑体";
+	color: #ffffff;
+	text-align: center;
+}
+.ife a{text-decoration:none;color: #ffffff;}
+
+time{
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+	font-size: 12px;
+	font-family: "黑体";
+	color: #d45d5c;
+}
+
+article{
+	height: 1250px;
+}
+article #div1{
+      height: 301px;
+      width: 100%;
+     position: relative;
+     
+
+}
+section{
+	margin: 10px 0px;
+}
+  .left1{
+  	width: 641px;
+  	height: 100%;
+  	float: left;   /*这个对于float很重要*/
+  	position: relative;
+  	
+
+  }
+   .codingslave{
+   	background: url(../images/码奴.jpg) no-repeat;
+   	height: 100%;
+
+   }
+   .green{
+   	height: 100%;
+   	background: green;
+   	width: 191px;
+   	float: left;
+   	    opacity: 0.35;
+   }
+   .red{
+   	height: 100%;
+   	width: 180px;
+   	background: red;
+   	float: right;
+   	 opacity: 0.35;
+   }
+
+  #div1 .text1{
+   	float: right;
+   	height: 100%;
+   	width: 200px;
+   	overflow: hidden;
+  border-top: 1px solid grey;
+   }
+   .text1 .about{
+   	    text-decoration: underline;
+   	    font-size: 24px;
+   	    color: #000000;
+   	    font-family:"MicroSoft Yahei";
+   	        text-transform: capitalize;
+    font-variant: small-caps;
+    line-height: 40px;
+   }
+
+   .text1 .txt{
+   	font-size: 12px;
+   	color: #676767;
+   	line-height: 10px;
+   	font-family: "楷体";
+   }
+
+   .text1 .shuzi{
+   	font-size: 116px;
+   	color: #75b86b;
+   	    font-style: italic;
+   }
+
+
+   .shuzi1{
+   	float: left;
+   	width: 100%;
+   	font-family: "MicroSoft Yahei";
+   		color: #cc8091;
+   }
+   .shuzi2{
+   	font-size: 55px;
+   	float: left;
+   }
+   .wenzi{
+   	margin-left:10px;
+   	margin-top: 10px;
+   	float: left;
+   	font-size: 21px;
+   }
+   .wenzi span{
+   	font-size: 12px;
+   	color: purple;
+   }
+
+table{
+	display: table;
+	border-spacing: 3px;
+	
+	
+
+}
+ thead{
+ 	    display: table-header-group;
+    vertical-align: middle;
+ }
+
+ tr{display: table-row;
+
+ }
+th{
+	    display: table-cell;
+}
+table thead tr th.col-2{
+        color: orange;
+        text-decoration: underline;
+}
+th.col-3{
+    color: pink;
+     text-decoration: underline;
+}
+th.col-1{
+	color: green;
+	 text-decoration: underline;
+}
+
+table tbody tr .what{
+ word-break:break-all;
+     width: 230px;
+    padding-right: 30px;
+    vertical-align: top;
+
+}
+
+table tbody tr .when{
+	vertical-align: top;
+ word-break:break-all;
+     width: 180px;
+      padding-right: 30px;
+}
+table tbody tr .how{
+   vertical-align: top;
+     width: 180px;
+     padding-right: 0px;
+
+        
+       line-height: 24px;
+
+}
+table tbody tr span{
+	color: #cd4a48;
+	font-family: "MicroSoft Yahei";
+	opacity: 0.7;
+	 font-style: italic;
+}
+#div3{
+	width: 100%;
+	height: 100%;
+}
+
+.leftcontent{
+	width: 413px;
+	float: left;
+}
+
+.text5{
+	 border-bottom: 2px solid #8E388E;
+	 padding: 15px;
+	 font-family: "黑体";
+}
+.text5 .THE{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+	margin-right: 40px;
+}
+.text5 .world{
+	font-size: 42px;
+	color: #11456b;
+	line-height: 50px;
+
+}
+
+.text6{
+	margin-top: 15px;
+	line-height: 16px;
+	font-size: 16px;
+
+}
+
+.dazi{
+	font-size: 80px;
+	line-height: 80px;
+	color: #f5e327;
+	font-family: "MicroSoft Yahei";
+	float: left;
+	
+}
+
+.text6 img {
+    float: right;
+    margin: 15px 0 15px 15px;}
+
+    p.p2{
+    	 text-indent: 2em;
+    	 margin-top: 0px;
+    }
+
+
+.rightcontent{
+	margin-left: 0px;
+	width: 458px;
+	float: right;
+
+	
+}
+
+.tf{
+	background: url(../images/TF.jpg) no-repeat;
+	height: 275px;
+	margin-top: 30px;
+	position: relative;
+}
+.tf .TF{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 61px;
+    line-height: 61px;
+    color: #orange;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 8px 0 8px 30px;
+}
+.tf .TF .TF1{
+	color: white;
+	font-size: 26px;
+	border-left: 3px solid #72b16a;
+	padding: 5px 5px 5px 0px;
+	line-height: 44px;
+	height: 44px;
+	    padding-left: 15px;
+	    font-family:"微软雅黑"; 
+	    float: left; 
+}
+
+.TF2{
+	line-height: 52px;
+	font-size: 14px;
+	vertical-align: bottom;
+	font-style: italic;
+	color: #72b16a;
+	 font-family:"微软雅黑"; 
+}
+
+.text7{
+	width: 459px;
+	height: 318px;
+	margin-top: 35px;
+	background: rgb(238,238,214);
+	position: relative;
+    z-index: 1;
+
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #11456b;
+    position: relative;
+    bottom: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    }
+
+
+.wenzi1{
+	font-size: 16px;
+	line-height:30px;
+	height: 20px;
+}
+.text7 .leftbottom{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	background: #d45d5c;
+	width: 260px;
+	height: 160px;
+
+}
+.ling{
+	font-size: 110px;
+	color: #ffffff;
+	font-family: "MicroSoft Yahei";
+	padding-left: 10px;
+}
+.one{
+	border-left: 3px solid #fff;
+	float: right;
+	margin-top: 20px;
+	padding: 0px 10px;
+	width: 150px; 
+}
+
+.ONE{
+	font-size: 21px;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 24px;
+}
+.hello{
+	font-size: 12px;
+	color: white;
+	font-family: "黑体";
+	line-height: 6px;
+}
+.last1{
+	
+	width: 180px;
+	height: 150px;
+	float:right;
+
+	padding-left:0px;
+	padding-right: 0px;
+	font-family: "黑体";
+	padding-top: 20px;
+	padding-left: 10px;
+	 position: relative;
+
+}
+.lq{
+	position: absolute;
+	top:20px;
+	left:-20px;
+	font-size: 72px;
+}
+.last1 .code{
+	text-indent: 3em;
+	width: 150px ;
+	font-style: italic;
+
+}
+
+.rq{
+	position: absolute;
+	bottom:0px;
+	right:-10px;
+	font-size: 72px;
+}
+footer{
+	
+	height: 60px;
+	border-top: 1px solid grey;
+	text-align: right;
+	color: 	#CD00CD;
+}
+
+

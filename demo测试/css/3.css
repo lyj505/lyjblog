@@ -1,0 +1,91 @@
+
+        body{padding: 0px; margin: 0px;}
+        .bd{
+            margin:20px;
+            border: 1px solid grey;
+            padding:20px;
+            background: #d2cfcf;
+            overflow: hidden;
+            min-width: 600px;
+            }
+        .left{
+            background: white;
+            width:200px;
+            float:left;
+            margin-left:-100%;
+            border: 1px solid green;
+            height: 120px;
+            padding: 20px;
+            }
+        .leftlogo{
+            float: left;
+             height: 80px;
+             width: 80px;
+            background: url(../images/BKB.png) no-repeat; }
+        .test{
+            font-size: 20px; margin-left: 105px;}
+        .main{
+
+            width:100%;
+            float:left;
+        }
+        .inner{
+            margin-left:260px;
+            margin-right:130px;
+
+        }
+        .inner1{
+              background: white;
+             border: 2px solid black;
+             margin-right: 20px;
+
+             border-radius:10px;
+             text-indent: 2em;
+             color: #00cc99;
+
+        }
+        .inner1 span{
+
+            color: green;
+            font-size: 30px;
+        }
+        .right{
+
+            width:120px;
+            float:left;
+            margin-left:-130px;
+          border: 2px dotted red;
+          height: 472px;
+           background: white;
+
+        }
+
+        .perlogo1{
+                 height: 80px;
+             width: 80px;
+            background: url(../images/Z.png) no-repeat;
+          margin: 20px 20px;
+
+        }
+         .perlogo2{
+                 height: 80px;
+             width: 80px;
+            background: url(../images/X.jpg) no-repeat;
+          margin: 20px 20px;
+
+        }
+         .perlogo3{
+                 height: 80px;
+             width: 80px;
+            background: url(../images/C.jpg) no-repeat;
+          margin: 20px 20px;
+
+        }
+         .perlogo4{
+                 height: 80px;
+             width: 80px;
+            background: url(../images/R.jpg) no-repeat;
+          margin: 20px 20px;
+
+        }
+

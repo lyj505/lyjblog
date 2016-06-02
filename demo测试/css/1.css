@@ -1,0 +1,234 @@
+ 
+ body{
+   background: #D9D9D9;
+   padding:0px;
+   margin:0px auto;
+   font-family: "MicroSoft Yahei";
+   }
+
+   #header {
+   	 height: 100px;
+   	 width: 100%;    
+   	 background: #333;
+   	 position: fixed;
+   	 top:0;
+   }
+
+.navigation{
+        float: right;
+
+}
+.navigation ul{
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 100px;
+	font-size: 30px;
+
+}
+.navigation ul li
+   {
+   	   display: inline;    
+   	   margin: 0px 10px;
+   }
+.navigation ul li a{
+	text-decoration: none; color:#FFD700;
+}
+.navigation ul li a:active{
+	text-decoration: none; color:blue;
+}
+
+#header img{
+     position: absolute;
+     top:0px;
+     left:50px;
+     height: 100px;
+     width: 200px;
+
+}
+.box{
+    
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+	box-shadow: 5px 5px 10px #888888;
+	background:#FFFFFF;
+	padding:25px;
+	width: 1200px;
+	
+
+}
+
+.box1{
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 10px #888888;
+	background:#FFFFFF;
+	padding:25px;
+	width:1200px;
+	font-family: "黑体";
+	font-size: 20px;
+}
+ h3{
+	color: grey;
+}
+p{
+	text-indent: 2em;
+}
+.box img
+{
+	padding-left: 400px;
+	margin: 10px 0px;
+}
+.zhe{
+	padding: 5px 0px;
+	color: 	#CDB5CD;
+}
+
+.box1 img{
+	margin: 10px 0px;
+
+}
+.box1 ul li{
+	list-style: none;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 600;	
+}
+
+.box2{
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 5px 10px #888888;
+	background:#FFFFFF;
+	padding:25px;
+	width:1200px;
+}
+.box2 .box22{
+	border: 1px dotted red;
+	width: 300px;
+	text-align: center;
+    background: pink;
+    margin:10px;
+}
+.box2 .box22 .text
+{
+	margin: 5px;
+	font-size: 18px;
+}
+
+.box2 .box22 img{
+	 width: 250px;
+	 height:110px;
+	 margin-bottom: 18px;
+}
+
+
+.box1 .list{
+	font-size: 18px;
+
+
+}
+
+.box1 table{
+	border:2px solid #d2b6c4;
+	width: 100%;
+ border-collapse:collapse;
+}
+.box1 table tr th{
+	color: white;
+	background: black;
+
+}
+
+.box1 table .hebing3{
+	border-collapse:collapse;
+}
+.box1 table .hebing3 .hebing{
+	background: #d2b6c4;
+
+}
+.hebing3 .hebing2{
+	background: #d2b6c4;
+}
+
+.box1 .h2{
+	border-left: 3px solid #d2b6c4;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 0px;
+    font-size: 25px;
+}
+form{
+}
+form.rightbox{
+	left-padding:500px;
+	width: 80%;
+}
+
+textarea{
+	height: 150px;
+	width: 300px;
+   vertical-align: top;
+   font-size: 22px;
+   font-weight: 50;
+   font-family: "黑体";
+}
+ p.wenben{
+	padding-left: 160px;
+	color: blue;
+}
+ p.mima{
+	padding-left: 40px;	
+}
+p.mima2{
+	padding-left: 2px;	
+}
+p.wenben2{
+	padding-left: 160px;
+	color: blue;
+}
+p.sex{
+
+	padding-left: 95px;
+}
+p.city{
+	padding-left: 95px;
+}
+p.interest{
+	padding-left: 95px;
+}
+p.person{
+	padding-left: 50px;
+}
+
+.rightbox{   
+ width: 500px;
+ padding-left: 500px;    
+}
+
+#submit{
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: blue;   
+}
+
+
+#footer {
+   	 height: 100px;
+   	 line-height: 100px;
+   	 width: 100%;    
+   	 background: #333;  	 
+     bottom:0;
+     text-align: center;
+     font-size: 25px;
+     color:white;
+     margin-top: 20px;
+     vertical-align: center;
+   }

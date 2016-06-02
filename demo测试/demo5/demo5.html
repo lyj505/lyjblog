@@ -1,0 +1,621 @@
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="yes" name="apple-touch-fullscreen">
+  <meta content="telephone=no,email=no" name="format-detection">
+  <link rel="stylesheet" href="./css/mui.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="./css/iconfont.css">
+
+  <title>仿站手淘</title>
+  <style>
+
+
+.mui-slider-indicator .mui-active.mui-indicator {
+    background: #fe5400;
+}
+ .mui-indicator{
+  height: 0.20rem  !important ;
+  width: 0.20rem !important ;
+
+ }
+ .mui-slider-title{
+  width: 100%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  color: #fff;
+ }
+
+ .content1{
+    line-height: 0;
+    width: 10rem;
+    height: 2.031rem;
+    background-color: rgb(255, 255, 255);
+
+
+     display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+ }
+
+ .ct1w{
+width: 3rem;
+height: 2rem;
+ -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+}
+
+
+
+ .I_mg {
+    width: 1.203rem;
+    height: 1.203rem;
+
+ }
+ .bc_I  {
+   background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(./img/loading.gif);
+ }
+ .bc_C{
+  background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(./img/loading.gif);
+ }
+ .content2{
+  width: 10rem;
+    padding: 0.2rem 0;
+  height: 1rem;}
+
+ .tttt{
+
+    width:2.8rem;
+    height: 100%;
+    border-right: 0.03rem solid #ccc;
+   display: inline-block;
+   vertical-align: middle;
+ }
+
+.later{
+  border-radius: 0.2rem;
+  border: 0.03rem solid #FF3300;
+text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  overflow:hidden;
+
+}
+
+.later p{
+     color:#ff0000;
+}
+
+#txt_change{
+            overflow:hidden;height:0.5rem;
+            vertical-align: middle;
+        }
+  #txt_change p{
+     height:0.5rem;line-height:0.5rem;white-space:nowrap;overflow:hidden;
+            width: 5rem;}
+    .main-wrap{width: 10rem;margin: 0 auto;padding-top: 1rem;}
+    .b_r{ border-right: 1px solid #ccc;}
+    .b_b{border-bottom:1px solid #ccc;}
+    .b_l{border-left:1px solid #ccc;}
+.border_left{
+    background-color: rgb(204, 204, 204);
+    margin-top: 0.484rem;
+    margin-left: 0.156rem;
+    margin-right: 0.156rem;
+    width: 3.5rem;
+    height: 1px;
+    float: left;
+    }
+.border_right{background-color: rgb(204, 204, 204);
+    margin-top: 0.484rem;
+    margin-left: 0.156rem;
+    margin-right: 0.156rem;
+    width: 3.5rem;
+    height: 1px; float: right;}
+    .border_right_1{
+      background-color: rgb(204, 204, 204);
+    margin-top: 0.484rem;
+   margin-right: 1.25rem;
+    width: 2.6rem;
+    height: 1px; float: right;
+    }
+    .border_left_1{
+      background-color: rgb(204, 204, 204);
+    margin-top: 0.484rem;
+    margin-left: 0.156rem;
+    margin-right: 0.156rem;
+    width: 3.7rem;
+    height: 1px;
+    float: left;
+    }
+.sa_center{width: 2.5rem;position: absolute;left:50%;margin-left:-1.25rem;height: 1rem;line-height: 1rem;
+;text-align: center;color: #FF3300;}
+
+
+ .border_or{border:0.06rem solid #FF3300;
+   border-radius: 50%;padding: 0.06rem;
+  }
+   .border_or1{border:0.06rem solid #990099;
+   border-radius: 50%;padding: 0.06rem;
+  }
+   .border_or2{border:0.06rem solid #E0E000;
+   border-radius: 50%;padding: 0.06rem;
+  }
+.rotata_1{
+ -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+    display: inline-block; }
+.content5{height:3.15rem;width: 10rem;}
+.content7{height:2.7rem;width: 10rem;}
+.footer{  position: fixed;bottom: 0;left:0;width: 100%;height: 1rem;z-index: 2;}
+   .more_1{ position: absolute;right: 0.2rem;top:50%;margin-top: 0.25rem;}
+    .right_bar {
+                width: 0.2rem;
+                height: 0.2rem;
+        border: 0.09rem solid #FF3300;
+        border-top: none!important;
+        border-right: none!important;
+-webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+        display: inline-block;
+                }
+
+  .everygg{ border-left: 0.2rem solid #ff9801;height: 1rem;position: relative;}
+  .right_red{width: 0.5rem;height: 0.5rem;background: red;position: absolute;right: 0rem;top:0.5rem;margin-top: -0.25rem;margin-right: 0.2rem;text-align: center;}
+.ENd{padding: 1rem 0.25rem;background: #4e525e;color: #dcddde; width:10rem;height:4.5rem}
+.kk{border: 0.08rem solid #494c57;height: 1rem;width: 1.8rem;border-radius: 0.2rem;line-height: 0.8rem;
+  text-align: center;}
+  .c_c{border-radius: 50%;
+      padding: 0.05rem 0.12rem;
+      border: 0.04rem solid #fff;
+      }
+     .hehe{margin-top:0.3rem;}
+
+
+ .b2top{width: 1.2rem;
+    text-align: center;
+  line-height: 0.5rem;
+   height: 1.2rem;border-radius: 100%;border: 1px solid #d7d7d7;position: fixed;bottom:10%;right:5%;z-index: 5;
+   padding: 0.1rem;display: none;}
+  </style>
+</head>
+<body >
+
+  <!--header-->
+  <div class="head-wraper " >
+    <div class="find grid_center grid afff"> <i class="icon iconfont" style="margin-right:0.1rem;">&#xe65c;</i>
+      寻找宝贝店铺
+    </div>
+  </div >
+  <!--lumbo-->
+  <div class="main-wrap">
+
+    <div class="mui-content" style="height:3.1rem; width: 10rem;" >
+      <ul class="mui-table-view mui-table-view-chevron" style="display:none;">
+        <li id="switch" class="mui-table-view-cell" >
+          <div class="mui-switch">
+            <div class="mui-switch-handle"></div>
+          </div>
+        </li>
+      </ul>
+      <div id="slider" class="mui-slider">
+        <div class="mui-slider-group mui-slider-loop">
+          <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/4.jpg"  style="height:100%;">
+              <p class="mui-slider-title">快来吃粽子</p>
+            </a>
+          </div>
+          <!-- 这是第一张上面是最后一张-->
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/9.jpg" style="height:100%;">
+              <p class="mui-slider-title">买一送三,惊艳全场</p>
+            </a>
+          </div>
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/8.jpg" style="height:100%;">
+              <p class="mui-slider-title">天猫多重好礼相送</p>
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/7.jpg"  style="height:100%;">
+              <p class="mui-slider-title">只敢卖一天</p>
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/5.jpg"  style="height:100%;">
+              <p class="mui-slider-title">幼儿福利</p>
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/6.jpg"  style="height:100%;">
+              <p class="mui-slider-title">潮男玩法</p>
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/4.jpg"  style="height:100%;">
+              <p class="mui-slider-title">快来吃粽子</p>
+            </a>
+          </div>
+
+          <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/9.jpg"  style="height:100%;">
+              <p class="mui-slider-title">买一送三,惊艳全场</p>
+            </a>
+          </div>
+        </div>
+        <div class="mui-slider-indicator mui-text-right" id="show_1">
+          <div class="mui-indicator mui-active"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--content1-->
+    <div class="content1">
+      <div class="f_box flex_dc grid_center ct1w ">
+        <div class=" I_mg bc_I lazy" data-original="./img/17.png"></div>
+        <div class="hehe">天猫</div>
+      </div>
+      <div class="f_box flex_dc grid_center ct1w" >
+        <div class=" I_mg bc_I lazy " data-original="./img/16.png"></div>
+        <div class="hehe">聚划算</div>
+      </div>
+      <div class="f_box flex_dc grid_center  ct1w" >
+        <div class="I_mg bc_I lazy" data-original="./img/15.png"></div>
+        <div class="hehe">到家</div>
+      </div>
+      <div class="f_box flex_dc grid_center ct1w" >
+        <div class=" I_mg bc_I lazy" data-original="./img/14.png"></div>
+        <div class="hehe">外卖</div>
+      </div>
+    </div>
+    <div class="content1 grid_bet">
+      <div class="f_box flex_dc grid_center ct1w">
+        <div class="I_mg bc_I lazy  " data-original="./img/13.png"></div>
+        <div class="hehe">充值</div>
+      </div>
+      <div class="f_box flex_dc grid_center  ct1w"  >
+        <div class=" I_mg bc_I lazy  " data-original="./img/12.png"></div>
+        <div class="hehe">阿里旅行</div>
+      </div>
+      <div class="f_box flex_dc grid_center  ct1w" >
+        <div class=" I_mg bc_I lazy  " data-original="./img/11.png"></div>
+        <div class="hehe">领金币</div>
+      </div>
+      <div class="f_box flex_dc grid_center ct1w" >
+        <div class=" I_mg bc_I lazy
+     " data-original="./img/10.png"></div>
+        <div class="hehe">分类</div>
+      </div>
+    </div>
+    <div class="content2 bgfff">
+      <div class="tttt bc_I lazy  " data-original="./img/9.png"></div>
+      <div class="later" id="span_change">
+        <p>最新</p>
+        <p>二次元</p>
+        <p>最新</p>
+        <p>值得买</p>
+      </div>
+      <span class="text c999 bold " style="letter-spacing:0.1rem;display:inline-block;" id="txt_change">
+        <p>玩游戏脑壳痛!</p>
+        <p>|赶紧来玩LOL|儿童节毁一生一列</p>
+        <p>赶紧来淘宝吧~</p>
+        <p>买一送一赶紧来</p>
+      </span>
+    </div>
+    <!--content3-->
+    <div  class="bgfff f_box" style="margin-top:0.4rem;height:4.797rem;">
+      <div class="one_box bc_I lazy  b_r"  data-original="./img/3.jpg" ></div>
+      <div class="two_box box_orient_v f_box ">
+        <div class="yhh one_box f_box b_b" >
+          <div class=" f_box one_box bc_I lazy  b_r" data-original="./img/20.png"></div>
+          <div class=" f_box one_box bc_I lazy b_r " data-original="./img/19.jpg"></div>
+        </div>
+        <div class="pack_1 box_orient_h one_box f_box ">
+          <div class=" one_box bc_I lazy b_r "  data-original="./img/2.jpg"></div>
+          <div class="mdchina one_box bc_I lazy  b_r" data-original="./img/1.png"></div>
+        </div>
+      </div>
+    </div>
+    <!--content4-->
+    <div class="sa" style="" >
+      <div class="border_left"></div>
+      <div class="sa_center">
+        <div class="rotata_1"> <i class="icon iconfont border_or" >&#xe751;</i>
+        </div>
+        <span>超实惠</span>
+      </div>
+      <div class="border_right"></div>
+    </div>
+    <!--content5-->
+    <div class="content5 bgfff f_box b_b" style="margin-top: 1rem;">
+      <div class="two_box bc_I lazy  " data-original="./img/20.jpg"></div>
+      <div class=" one_box bc_I lazy b_l " data-original="./img/27.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/26.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/25.png"  ></div>
+    </div>
+    <div class="content5 bgfff f_box b_b" >
+      <div class=" two_box bc_I lazy  " data-original="./img/24.png" ></div>
+      <div class=" one_box bc_I lazy b_l" data-original="./img/23.png"  ></div>
+      <div class=" one_box bc_I lazy b_l " data-original="./img/22.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/21.png" ></div>
+    </div>
+    <!--content6-->
+    <div class="sa">
+      <div class="border_left"></div>
+      <div class="sa_center" style="color:#990099">
+        <i class="icon iconfont border_or1" >&#xe6e3;</i>
+        <span>好品质</span>
+      </div>
+      <div class="border_right "></div>
+    </div>
+    <!--content7-->
+    <div class="bgfff f_box content7" style="margin-top:1rem;">
+      <div class="three_box bc_I lazy  b_b" data-original="./img/21.jpg"></div>
+      <div class=" two_box bc_I lazy b_b b_l" data-original="./img/22.jpg" ></div>
+    </div>
+
+    <div class="bgfff f_box content7" >
+      <div class=" one_box bc_I lazy b_l" data-original="./img/23.jpg"  ></div>
+      <div class=" one_box bc_I lazy b_l " data-original="./img/24.jpg" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/25.jpg" ></div>
+      <div class=" one_box bc_I lazy b_l" data-original="./img/26.jpg"  ></div>
+      <div class=" one_box bc_I lazy b_l" data-original="./img/27.jpg" ></div>
+    </div>
+    <!--content8-->
+    <div class="sa">
+      <div class="border_left"></div>
+      <div class="sa_center" style="color:#E0E000">
+        <i class="icon iconfont border_or2" >&#xe6e3;</i>
+        <span>有特色</span>
+      </div>
+      <div class="border_right "></div>
+    </div>
+    <!--content9-->
+    <div class="content5 bgfff f_box b_b" style="margin-top: 1rem;">
+      <div class="two_box bc_I lazy  " data-original="./img/20.jpg"></div>
+      <div class=" one_box bc_I lazy b_l " data-original="./img/27.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/26.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/25.png"  ></div>
+    </div>
+    <div class="content5 bgfff f_box b_b" >
+      <div class=" two_box bc_I lazy  " data-original="./img/24.png" ></div>
+      <div class=" one_box bc_I lazy b_l" data-original="./img/23.png"  ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/22.png" ></div>
+      <div class=" one_box bc_I lazy  b_l" data-original="./img/21.png" ></div>
+    </div>
+
+  <!--content10-->
+     <div class="bc_C lazy"   data-original="./img/40.jpg"  style="height:1.5rem;width:10rem;"></div>
+<!--content11-->
+       <div class="sa" style="position:relative;">
+      <div class="border_left_1"></div>
+      <div class="sa_center" style="color:#44C718">
+        <i class="icon iconfont border_or2" >&#xe757;</i>
+        <span>热门市场</span>
+      </div>
+      <div class="border_right_1 " >
+
+      </div>
+  <div class="more_1">更多
+   <div class="right_bar"></div>
+        </div>
+    </div>
+ <!--content11-->
+<div  class="bgfff f_box" style="margin-top:1rem;height:4.797rem;width:10rem;">
+      <div class="one_box bc_I lazy  b_r"  data-original="./img/3.jpg" ></div>
+      <div class="two_box box_orient_v f_box ">
+        <div class="yhh one_box f_box b_b" >
+          <div class=" f_box one_box bc_I lazy  b_r" data-original="./img/20.png"></div>
+          <div class=" f_box one_box bc_I lazy b_r " data-original="./img/19.jpg"></div>
+        </div>
+        <div class="pack_1 box_orient_h one_box f_box ">
+          <div class=" one_box bc_I lazy b_r "  data-original="./img/2.jpg"></div>
+          <div class="mdchina one_box bc_I lazy  b_r" data-original="./img/1.png"></div>
+        </div>
+      </div>
+    </div>
+<!--content12-->
+ <div class="bc_C lazy"   data-original="./img/45.jpg"  style="height:2rem;width:10rem;"></div>
+<!--content13-->
+  <div class="everygg media-body">
+     每日好店
+     <span class="pull-right" style="margin-right:1rem;">更新50个好店
+
+     </span>
+         <div class="right_red">
+            <div class="right_bar" style=" border: 0.09rem solid #fff;margin-top:0.15rem;"></div>
+         </div>
+  </div>
+<!--content14-->
+
+    <div class="mui-content" style="height:3.1rem; width: 10rem;">
+      <div id="slider" class="mui-slider">
+        <div class="mui-slider-group mui-slider-loop">
+          <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/6.jpg">
+
+            </a>
+          </div>
+          <!-- 这是第一张上面是最后一张-->
+            <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/5.jpg">
+
+            </a>
+          </div>
+
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/7.jpg">
+
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/4.jpg">
+
+            </a>
+          </div>
+          <div class="mui-slider-item">
+            <a href="#">
+              <img src="./img/6.jpg">
+
+            </a>
+          </div>
+
+          <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+          <div class="mui-slider-item mui-slider-item-duplicate">
+            <a href="#">
+              <img src="./img/5.jpg">
+
+            </a>
+          </div>
+        </div>
+        <div class="mui-slider-indicator mui-text-right">
+          <div class="mui-indicator mui-active"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+          <div class="mui-indicator"></div>
+
+        </div>
+      </div>
+    </div>
+
+
+<!--contentEND-->
+ <div class="ENd  grid flex_dc grid_bet" >
+ <div class="grid-cell grid_jcsb">
+   <div class="kk">登录</div>
+   <div class="kk">注册</div>
+   <div class="kk">电脑版</div>
+   <div class="kk">用户反馈</div>
+ </div>
+ <div class="grid-cell grid_center"><span class="c_c">C</span> &nbsp;2016 浙 B2-2008224 服务中心</div>
+ </div>
+
+
+<div class="footer f_box box_orient_h box_pack_j box_align_c bgfff" style="padding-top:0.1rem;">
+  <div class="one_box box_orient_v f_box ftc" >
+     <i class="icon iconfont">&#xe6b8;</i>
+     <div >首页</div>
+  </div>
+  <div class="one_box box_orient_v f_box ftc" >
+     <i class="icon iconfont">&#xe671;</i>
+     <div >物流</div>
+  </div>
+  <div class="one_box box_orient_v f_box ftc" >
+    <i class="icon iconfont">&#xe6af;</i>
+     <div >购物车</div>
+  </div>
+  <div class="one_box box_orient_v f_box ftc" >
+    <i class="icon iconfont">&#xe686;</i>
+     <div >我的淘宝</div>
+  </div>
+  <div class="one_box box_orient_v f_box ftc" >
+    <i class="icon iconfont">&#xe684;</i>
+     <div >更多</div>
+  </div>
+</div>
+  </div>
+<div class="b2top bgfff" id="B2top">
+    <i class="icon iconfont">&#xe69e;</i>
+    <br>
+    顶部
+</div>
+
+
+  <script type="text/javascript" src="./js/jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="./js/flexible_css.js"></script>
+  <script src="./js/mui.min.js"></script>
+  <script type="text/javascript" src="./js/lazyload.js"></script>
+
+  <script>
+ $("div.lazy").lazyload({
+    effect : "fadeIn"
+});
+
+
+$('body').on({
+    'touchmove': function(e) {
+        var Height_limit=$('#show_1').offset().top;
+        var s = $(window).scrollTop();
+    if (s > Height_limit) {
+          $(".B2top").css({
+            display : 'block',
+          });
+        } else {
+          $(".B2top").css('display', 'none');
+        }
+
+      }
+    });
+
+
+$("#B2top").click(function(){
+        $('html,body').animate({scrollTop:0},1000,function() {
+      $('.B2top').css('display', 'none');
+    });
+        return false;
+    });
+
+  </script>
+  <script>
+
+    var slider = mui("#slider");
+        slider.slider({
+          interval: 2000
+        });
+
+    function setTime(){
+        var txt_change=document.getElementById("txt_change");
+        var span_change=document.getElementById('span_change');
+        txt_change.appendChild(txt_change.firstChild);
+               span_change.appendChild(span_change.firstChild);
+    }
+
+
+
+    setInterval("setTime()",1000);
+  </script>
+</body>
+</html>

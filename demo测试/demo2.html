@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>苦逼之路</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/DOTA.ico">
+	<link href="css/font-face.css" rel="stylesheet" type="text/css">
+
+	<!--[if It IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<style type="text/css">
+
+
+body{padding-top:50px;
+	padding-bottom: 50px;
+
+
+	}  /*boostrap默认的*/
+
+hr{
+
+display: block;
+margin-before: 0.5em;
+margin-after: 0.5em;
+margin-start: auto;
+margin-end: auto;
+border-style: solid;
+border-width: 2px;
+border-color: green;
+margin: 40px 0px;
+}
+
+
+.mainbox{
+	background: lightyellow;
+}
+
+
+ .carousel .carousel-caption{
+ 	margin-bottom: 20px;
+ 	font-size: 20px;
+ 	line-height: 1.8;
+ }
+
+    .carousel{
+    	height: 500px;
+
+    }
+      .carousel .item{
+    	height: 500px;
+    }
+     img{
+   background-size: cover;
+
+    }
+
+ .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: lightgreen;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+#summary-container .col-md-4{
+	text-align: center;
+
+}
+
+
+
+
+.feature-heading{
+  font-size: 50px;
+  color: #2a6496;
+  margin-top: 120px;
+	}
+.feature-heading .text-muted{
+	font-size: 28px;
+	color: #999;
+
+	}
+
+	p.last{
+		font-size: 22px;
+		color: pink;
+	}
+
+
+.glyphicon-chevron-left::before {
+
+    color: #00ffff;
+
+}
+.glyphicon-chevron-right::before {
+
+    color: #00ffff;
+}
+
+	</style>
+
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+		<!--navbar这是一个导航条，第二个表示这是一个导航条样式 role代表是一个导航条 inverse 黑底展示-->
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<!--整个导航条被他所包裹，自适应布局，如果只有container可能就只是固定大小居中-->
+			<div class="navbar-header">
+				<!--这个代表当浏览器小于某个宽度，而表现出来是3横-->
+				<button type="button" class="navbar-toggle " data-toggle="collapse" data-target=".navbar-ex1-collapse ">
+					<span class="sr-only"></span>
+					<!--加不加东西没有什么影响-->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<!--这3个别加-->
+				</button>
+				<!--这个是响应式布局的特点-->
+				<!--但是这个navigation没有点击了回收的功能，需要完善-->
+				<a class="navbar-brand" href="http://www.douyu.com/directory/game/DOTA2" target="_blank">Chinese Doto</a>
+				<!--brand是商标-->
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div  id ="change_1" class="collapse navbar-collapse navbar-ex1-collapse ">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="http://www.douyu.com/pis" target="_blank">Yaphets</a>
+					</li>
+					<li>
+						<a href="http://www.douyu.com/58428" target="_blank">YYF</a>
+					</li>
+					<li>
+						<a href="http://www.douyu.com/cold" target="_blank">Cold</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+							狗 <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li  class="dropdown-header">
+								<a href="#">LTP.carry</a>
+							</li>
+							<li class="divider"></li>
+							<li li class="dropdown-header">
+								<a href="#">LTP.solo</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">LTP.offlane</a>
+							</li>
+							<li class="divider"></li>
+							<li class="disabled">
+								<a href="#">LTP.support1</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">LTP.support2</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="LTP.cn(请勿点击提交!)"></div>
+					<button type="submit" class="btn btn-default">提交</button>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="http://www.baidu.com" target="_blanks">solo</a>
+					</li>
+					<li class="dropdown">
+						<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+							狗 <b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">LTP.carry</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">LTP.solo</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">LTP.offlane</a>
+							</li>
+							<li class="divider"></li>
+							<li class="disabled">
+								<a href="#">LTP.support1</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">LTP.support2</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse 下拉菜单-->
+		</div>
+	</nav>
+	<!--轮播效果-->
+	<div id="carousel-id" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-id" data-slide-to="1" ></li>
+			<li data-target="#carousel-id" data-slide-to="2" ></li>
+			<li data-target="#carousel-id" data-slide-to="3" ></li>
+			<li data-target="#carousel-id" data-slide-to="4" ></li>
+
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:First slide" alt="First slide" src="images/Pom.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1 >Chinese Doto</h1>
+						<p>大家好，我不仅是一个yara，还是一个pxo，还是一个鳌孙</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="http://bbs.sgamer.com/forum-44-1.html" role="button" target="_blank">点击我，直达海南</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/Tide Bringer.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>我叫王牧羊</h1>
+						<p>我为先知代言，最强三号位，杀鸡英雄</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="http://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=%D0%C2%BD%AE%C3%C0%C5%AE&fr=ala&ala=1&alatpl=cover&pos=0#z=0&pn=&ic=0&st=-1&face=0&s=0&lm=-1"
+                            target="_blank"
+							role="button">点击我，直达泉水</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="images/nevermore.jpg">
+				<div class="container" >
+					<div class="carousel-caption">
+						<h1>我是大魔王</h1>
+						<p>他们叫我宇文，我叫它们“狗”</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="http://www.douyu.com/paparazzi" role="button" target="_blank" title="天辉最强影魔">老太婆最佳solo</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:4 slide" alt="4 slide" src="images/Pudge.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>红旗河沟阿鑫</h1>
+						<p>我爱出大根，我爱抢人头，我不喜欢cengJUAN</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="http://www.xiaoniu66.com/" target="_blank"role="button">6K大神带你躺赢</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="images/UW.jpg">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>Im burning</h1>
+						<p>If U call me Baidi,plz go away!</p>
+						<p>
+							<a class="btn btn-lg btn-primary" href="http://www.douyu.com/douyunai" role="button" target="_blank">老司机兼职carry</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-id"  data-slide="prev" >
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+
+
+
+	<a class="right carousel-control" href="#carousel-id" data-slide="next" role="button">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	</a>
+	</div>
+
+
+	</div>
+	<div class="mainbox">
+	<div class="container" id="summary-container">
+	<center><audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            src="Unstoppable.mp3" type="audio/mpeg">
+      你的浏览器不支持audio标签
+  </audio></center>
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img-circle" src="images/JUGG.png" alt="JUGG">
+				<h2>JUGG</h2>
+				<p></p>
+				<p>
+					<button type="button" class="btn btn-default">无敌斩</button>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-circle" src="images/TA.png" alt="Temple A">
+				<h2>Temple A</h2>
+				<p></p>
+				<p>
+					<button type="button" class="btn btn-default">破音一击</button>
+				</p>
+			</div>
+			<div class="col-md-4">
+				<img class="img-circle" src="images/seer.png" alt="Green Man">
+				<h2>Green Man</h2>
+				<p></p>
+				<p>
+					<button type="button" class="btn btn-default">绿色保护妮</button>
+				</p>
+			</div>
+		</div>
+		<hr>
+
+		<div role="tabpanel">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active">
+					<a href="#h1" aria-controls="home" role="tab" data-toggle="tab">The Carry</a>
+				</li>
+				<li role="presentation" >
+					<a href="#h2" aria-controls="tab" role="tab" data-toggle="tab">The Solo</a>
+				</li>
+				<li role="presentation">
+					<a href="#h3" aria-controls="tab" role="tab" data-toggle="tab">The Offline</a>
+				</li>
+				<li role="presentation">
+					<a href="#h4" aria-controls="tab" role="tab" data-toggle="tab">The SupportOne</a>
+				</li>
+				<li role="presentation">
+					<a href="#h6" aria-controls="tab" role="tab" data-toggle="tab">The SupporTwo</a>
+				</li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="h1">
+
+						<div class="col-md-7">
+							<h2 class="feature-heading">
+								萬鵬博
+								<span class="text-muted">
+									DOTA/DOTA2著名职业选手，敌法师冠名者，曾效力于DK战队， 于2014年8月14日和前队友白帆（rOtk_xB)同时宣布退役。世界顶级carry。
+								</span>
+							</h2>
+						</div>
+						<div class="col-md-5">
+							<img src="images/burning.png" class="feature-image img-responsive"></div>
+
+				</div>
+				<div role="tabpane2" class="tab-pane" id="h2">
+
+					<div class="col-md-7">
+						<h2 class="feature-heading">
+							杜嚴峻
+							<span class="text-muted">
+								著名DotA前职业选手，金牌Dota解说，因”perfect is shit“被大家亲切的称为pis，因其影魔灵动飘逸被dota地图制作者Icefrog冠名金色ID。
+							</span>
+						</h2>
+					</div>
+					<div class="col-md-5">
+						<img src="images/pis.png" class="feature-image img-responsive"></div>
+
+				</div>
+				<div role="tabpanel" class="tab-pane" id="h3">
+					<div class="col-md-5">
+						<h2 class="feature-heading">
+							王木陽
+							<span class="text-muted">为IG战队的3号位选手，于2014年7月25日在腾讯微博正式宣布退役,并签约斗鱼TV进行游戏直播。</span>
+						</h2>
+					</div>
+					<div class="col-md-7">
+						<img src="images/YYF.png" class="feature-image img-responsive"></div>
+				</div>
+				<div role="tabpane4" class="tab-pane" id="h4">
+					<div class="col-md-7">
+						<h2 class="feature-heading">
+							李應立冬
+							<span class="text-muted">
+								VG战队的dota2分部选手，在队内担任4号位，曾随队参加TI4，并且获得亚军。拉比克是其招牌英雄，在比赛中经常有十分亮眼的发挥和表现。
+							</span>
+						</h2>
+					</div>
+					<div class="col-md-5">
+						<img src="images/FY.png" class="feature-image img-responsive"></div>
+				</div>
+				<div role="tabpane5" class="tab-pane" id="h6">
+
+					<div class="col-md-5">
+						<h2 class="feature-heading">
+							小牛閆德鑫
+							<span class="text-muted">在2010年，EHOME豪夺十冠，期间XIN的魂戒TK引领潮流，立下汗马功劳。XIN的修补匠依旧那么犀利。</span>
+						</h2>
+
+					</div>
+					<div class="col-md-7">
+						<img src="images/mmy1.png" class="feature-image img-responsive"></div>
+				</div>
+
+			</div>
+
+		</div>
+   <hr margin-top="50px">
+	</div>
+
+
+
+  		<center><img  src="images/dota.jpg" alt="Image"
+  		 ></center>
+
+
+  </div>
+	<footer>
+		<p class="pull-right"><a href="#top">回到顶部</a></p>
+		<p class="last">©2016  立冬社区</p>
+	</footer>
+
+</div>
+
+	<script src="js/jquery-1.7.2.js"></script>
+
+	<script src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  	$(".navbar-toggle").toggle(function() {
+  		  $("#change_1").removeClass('in');
+  	}, function() {
+  		$("#change_1").addClass('in');
+  	});
+  	  });
+  </script>
+</body>
+</html>
