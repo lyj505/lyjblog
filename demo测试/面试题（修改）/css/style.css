@@ -442,6 +442,7 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
   display:-o-box;
   display: -ms-flexbox;
   display:box;
+  /*display:flex;由于FF的box_pack在box老式弹性盒子里的主轴线上方向布局不行所以得成新版flex盒子的hack*/
 }
 
 .one_box{
@@ -450,6 +451,8 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
   -o-box-flex:1;
   -webkit-box-flex:1;
    box-flex:1;
+    flex: 1;
+
 }
 .two_box{
    -ms-flex: 2;
@@ -466,6 +469,20 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
   -webkit-box-flex:3;
    box-flex:3;
 }
+.four_box{
+   -ms-flex: 4;
+  -moz-box-flex:4;
+  -o-box-flex:4;
+  -webkit-box-flex:4;
+   box-flex:4;
+}
+.five_box{
+   -ms-flex: 5;
+  -moz-box-flex:5;
+  -o-box-flex:5;
+  -webkit-box-flex:5;
+   box-flex:5;
+}
 .n_box{
     -ms-flex: 20;
   -moz-box-flex:20;
@@ -478,6 +495,7 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
  -webkit-box-orient:vertical;
   box-orient:vertical;
     -ms-box-orient:vertical;
+    /*flex-direction: column;  最后让ie的垂直方向得到渲染*/
 }
 .box_orient_h{
   -moz-box-orient:horizontal;
@@ -489,6 +507,7 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
   -webkit-box-pack: justify;
     -moz-box-pack: justify;
     -ms-flex-pack: justify;
+   /* justify-content: space-around; 由于FF的box_pack在box老式弹性盒子里的主轴线上方向布局不行所以得成新版flex盒子的hack*/
 }
 .box_align_c{
   -webkit-box-align: center;
@@ -497,78 +516,68 @@ a{ text-decoration: none; color: #8f8f8f; cursor: pointer;}
 }
 .box_pack_E{  -webkit-box-pack: end;
     -moz-box-pack: end;
-    -ms-flex-pack: end;}
+    -ms-flex-pack: end;
+
+  }
+
+
 /*flex*/
-.grid {
+.flex {
   display: -moz-flex;
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
  /* Safari */
 }
-.grid_center{
-   -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-   -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
+.flex_jc_center{
+   -webkit-justify-content: center;
+       -ms-flex-pack: center;
+           justify-content: center;
 }
-.grid_bet{
-      -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-  justify-content: space-between; }
-.grid-cell {
-     display: -moz-box;
-  display: -webkit-box;
-  display: box;
+.flex_jc_sb{
+      -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+          justify-content: space-between; }
+.flex_1 {
   -moz-box-flex: 1;
   -webkit-box-flex: 1;
   box-flex: 1;
-
 }
-.flex_jcsr{
+.flex_2{
+  -moz-box-flex: 2;
+  -webkit-box-flex: 2;
+  box-flex: 2;
+}
+.flex_jc_sr{
    -webkit-justify-content: space-around;
     -moz-justify-content: space-around;
     -ms-justify-content: space-around;
-  justify-content: space-around;}
-
-.flex_jcsb{
-   -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
-    -ms-justify-content: space-between;
-  justify-content: space-between;}
+       -ms-flex-pack: distribute;
+      justify-content: space-around;}
 
 
-  .flex_aic{
+
+
+  .flex_ai_ct{
    -webkit-align-items: center;
     -moz-align-items: center;
     -ms-align-items: center;
-    align-items: center;}
-.grid_cc{
-  align-items:center;
-  justify-content:center;}
-.grid_jcsb{
-   -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
-  justify-content: space-between;}
+    -ms-flex-align: center;
+       align-items: center;}
 
-.grid-2of3 {
-  display:flex;
-  flex: 2;
-  align-items:center;
-  justify-content:center;
+    .flex_ai_sch{
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
-.flex_dc{
-    -moz-flex-direction:column;
+
+.flex_direction_c{
+ -moz-flex-direction:column;
  -webkit-flex-direction:column;
-  flex-direction:column;
+  -ms-flex-direction:column;
+     flex-direction:column;
 }
-
-
-
 
 .fcgreen{
   color:#26c269;
